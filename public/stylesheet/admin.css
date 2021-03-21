@@ -1,0 +1,80 @@
+.backBtn {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.addBtn {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: greenyellow;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.updateBtn {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+button:hover {
+  box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.adminHeader {
+  margin: 2em 0;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#firstRadio {
+  visibility: hidden;
+}
+
+textarea {
+  padding: 2em;
+  border-radius: 15px;
+  margin: 1em;
+}
+
+textarea:hover {
+  transform: scale(1.1);
+}
+
+.radioBtn {
+  margin-top: 4.5%;
+  margin-right: 1em;
+  vertical-align: top;
+  padding: 1em;
+  transform: scale(2);
+}

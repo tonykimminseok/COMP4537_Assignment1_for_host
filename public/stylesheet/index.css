@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+.mainContent {
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 10em;
+}
+
+.mainContent h1 {
+    margin-bottom: 3em;
+}
+
+
+.buttonWrapper {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.buttonWrapper a {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.3em;
+    border: 1px solid black;
+}
+
+.buttonWrapper a:hover {
+    opacity: 0.6;
+}
+
+.buttonWrapper a:first-child {
+    background-color: #618eff;
+}
+
+.buttonWrapper a:last-child {
+    background-color: #62de5f;
+}

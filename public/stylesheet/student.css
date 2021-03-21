@@ -1,0 +1,70 @@
+.backBtn {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.submitBtn {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+button:hover {
+  box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.radioBtn {
+  margin-top: 4.5%;
+  margin-right: 1em;
+  vertical-align: top;
+  padding: 1em;
+  transform: scale(2);
+}
+
+.pageTitle {
+  font-size: 3em;
+}
+
+.textTitle {
+  margin: 2em;
+  font-size: 2em;
+  border-top: pink 1px solid;
+  border-bottom: pink 1px solid;
+  padding: 1em 0;
+  width: 50%;
+  margin: 1em auto;
+}
+
+.question {
+  font-size: 25px;
+}
+
+.answerText {
+  display: inline-block;
+  padding: 1.7em;
+  font-size: 20px;
+  width: 30%;
+}
