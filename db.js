@@ -1,21 +1,21 @@
-const { Client } = require('pg');
-require('dotenv').config();
+const { Client } = require("pg");
+require("dotenv").config();
 
 const client = new Client({
-    host: process.env.HOST,
-    port: process.env.PORT_DB,
-    user: process.env.USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DABABASE,
+  host: process.env.HOST,
+  port: process.env.PORT_DB,
+  user: process.env.USERNAME,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE,
 });
 
 client.connect((err) => {
-    if (err) {
-        console.log("Database not connected!")
-        throw err;
-    }
+  if (err) {
+    console.log("Database not connected!");
+    throw err;
+  }
 
-    console.log('Database connected!');
+  console.log("Database connected!");
 });
 
 module.exports = client;
