@@ -72,7 +72,7 @@ CREATE TABLE public.questions (
 ALTER TABLE public.questions OWNER TO tonyminseokkim;
 
 --
--- Name: questions_question_id_seq; Type: SEQUENCE; Schema: public; Owner: scott
+-- Name: questions_question_id_seq; Type: SEQUENCE; Schema: public; Owner: tonyminseokkim
 --
 
 CREATE SEQUENCE public.questions_question_id_seq
@@ -133,7 +133,7 @@ COPY public.options (option_id, question_id, question_answer, is_correct) FROM s
 9	13	option 1 edit	f
 10	13	option 2 edit	f
 11	13	option 3	t
-37	28	scott	t
+37	28	tonyminseokkim	t
 38	28	is	f
 39	28	korean	f
 40	28	yo	f
